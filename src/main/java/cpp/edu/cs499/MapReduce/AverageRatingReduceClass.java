@@ -27,5 +27,4 @@ public class AverageRatingReduceClass extends
 		average = sum / count;
 		context.write(text, new FloatWritable(average));
 	}
-
 }

@@ -19,15 +19,6 @@ public class TotalMovieRatingsMapClass extends
 		String movieID = value.toString().split(",")[0];
 		FloatWritable rating = new FloatWritable(Float.parseFloat(value
 				.toString().split(",")[2]));
-		/*
-		 * int count = 0; while temp = first { count++; double ratings = 0;
-		 * double ratings += last.toInteger();
-		 * 
-		 * if (temp != first) { temp = first;
-		 * 
-		 * 
-		 * ratings / count;
-		 */
 
 		movie.set(movieID);
 		context.write(movie, rating);
