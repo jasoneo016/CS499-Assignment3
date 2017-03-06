@@ -3,6 +3,7 @@
 For the run configuration arguments:
 
 args[0] = TrainingRating.txt
+
 args[1] = output
 
 
